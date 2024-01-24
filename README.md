@@ -32,3 +32,8 @@ shu1r0@raspi3node1:~/workspace$ sudo i2cdetect -y 1
 pip3 install -r requirements.txt
 nohup python3 capture_exporter.py &
 ```
+
+## 参考文献
+- https://qiita.com/74th/items/e8dc1ac1295140413dc8
+
+
