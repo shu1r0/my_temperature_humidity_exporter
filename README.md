@@ -1,4 +1,4 @@
-# ラズパイから温度と湿度を取得するExporter
+# ラズパイから温度と湿度を取得するExporter (Flask+uWSGI+ngix)
 
 ## SetUp
 

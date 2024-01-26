@@ -4,13 +4,11 @@
 .idea/
 nohub.out
 
-nohup.out
 *.log
 *.pcap
 # profiling file
 *.prof
 
-/ipnet_mininet
 private/
 /docs/draft/
 .vagrant/
