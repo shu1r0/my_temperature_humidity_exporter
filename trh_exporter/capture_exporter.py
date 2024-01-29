@@ -20,8 +20,7 @@ i2c = smbus.SMBus(1)
 def return_trh():
     number_of_requests.inc()
     try:
-        # t, h = get_trh(i2c)
-        t, h = (20, 60)
+        t, h = get_trh(i2c)
         print("温度={}℃  湿度={}%".format(t, h))
         temperature.labels("raspi3").set(t)
         humidity.labels("raspi3").set(h)
